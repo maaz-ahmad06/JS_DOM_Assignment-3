@@ -7,3 +7,6 @@
     document.getElementById("changeImgBtn").addEventListener("click", function () {
       img2.setAttribute("src", "https://picsum.photos/id/30/200/120");
     });
+ 
+    // Task 3: set placeholder
+    document.getElementById("nameInput").setAttribute("placeholder", "Enter your name");
