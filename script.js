@@ -20,3 +20,10 @@
     // Task 5: check if paragraph has class attribute (logs false)
     const para = document.getElementById("para");
     console.log("Paragraph has class:", para.hasAttribute("class"));
+ 
+    // Task 6: change href on click
+    const link = document.getElementById("myLink");
+    document.getElementById("changeLinkBtn").addEventListener("click", function () {
+      link.setAttribute("href", "https://www.wikipedia.org");
+      link.textContent = "Visit Wikipedia";
+    });
