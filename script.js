@@ -10,3 +10,9 @@
  
     // Task 3: set placeholder
     document.getElementById("nameInput").setAttribute("placeholder", "Enter your name");
+ 
+    // Task 4: remove disabled on click
+    const disabledInput = document.getElementById("disabledInput");
+    document.getElementById("enableBtn").addEventListener("click", function () {
+      disabledInput.removeAttribute("disabled");
+    });
