@@ -16,3 +16,7 @@
     document.getElementById("enableBtn").addEventListener("click", function () {
       disabledInput.removeAttribute("disabled");
     });
+ 
+    // Task 5: check if paragraph has class attribute (logs false)
+    const para = document.getElementById("para");
+    console.log("Paragraph has class:", para.hasAttribute("class"));
